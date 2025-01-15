@@ -1,5 +1,11 @@
 # Verilog CPU Implementation
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Future Enhancements](#future-enhancements)
 ## Overview
 This project is a Verilog implementation of a custom CPU designed with the following features:
 
@@ -47,8 +53,10 @@ The CPU architecture includes the following components:
 
 ### Prerequisites
 - **Tools Required**:
+- Either:
   - Verilog simulator (e.g., ModelSim, XSIM)
-
+- Or:
+  - FPGA synthesis tool (e.g., Vivado, Quartus) and FPGA board for hardware implementation.
 ## Future Enhancements
 - Support for additional AVR instructions.
 
